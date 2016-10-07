@@ -8,11 +8,13 @@ Materyal Tasarım Responsive Giriş ve Kullanıcı Kayıt Formu
 
 ## Demo Sayfası İçin ;
 
-[link](https://selimdoyranli.com/cdn/material-form){:target="_blank"}
+<a href="https://selimdoyranli.com/cdn/material-form" target="_blank">https://selimdoyranli.com/cdn/material-form</a>
 
 
 #### Takipte Kalın
 
-https://selimdoyranli.com
+<a href="https://selimdoyranli.com" target="_blank">https://selimdoyranli.com</a>
 
-http://radkod.com
+<a href="http://www.radkod.com" target="_blank">http://www.radkod.com</a>
+
+<a href="http://www.sanalyer.com" target="_blank">http://www.sanalyer.com</a>
