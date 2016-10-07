@@ -8,7 +8,7 @@ Materyal Tasarım Responsive Giriş ve Kullanıcı Kayıt Formu
 
 ## Demo Sayfası İçin ;
 
-https://selimdoyranli.com/cdn/material-form
+[link](https://selimdoyranli.com/cdn/material-form){:target="_blank"}
 
 
 #### Takipte Kalın
