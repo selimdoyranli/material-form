@@ -1,0 +1,119 @@
+<!-- Selim Doyranlı Tarafından Hazırlanmıştır : 08.10.2016 | Material Form -->
+<!-- https://selimdoyranli.com -->
+<!-- http://www.radkod.com -->
+<!-- https://www.sanalyer.com -->
+<!DOCTYPE HTML>
+<html lang="tr-TR">
+   <head>
+      <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+      <title>Material Tasarım Giriş ve Kayıt Formu</title>
+      <!-- Çekirdek CSS -->
+      <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+      <!-- Dışarıdan Çağırılan Dosyalar Font we Materyal İkonlar -->
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Çekirdek Js -->
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+   </head>
+   <body>
+      <!-- Kapsayıcı -->
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 login-card">
+         
+		 <!-- Login (giriş) Form Sayfası -->
+         <form id="login-form" class="col-lg-12" action="giris.php" method="post">
+            <!-- Logo -->
+            <div class="col-lg-12 logo-kapsul">
+               <img width="100" class="logo" src="img/logo.png" alt="RadKod Logo" draggable="false"/>
+            </div>
+            <div style="clear:both;"></div>
+            <!-- Kullanıcı Adı Giriş İnput -->
+            <div class="group">      
+               <input type="text" name="kullanici_adi" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-ikon">person_outline</i><span class="span-input">Kullanıcı Adınız</span></label>
+            </div>
+            <!-- Şifre İnput Giriş-->
+            <div class="group">      
+               <input type="password" name="sifre" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Şifre</span></label>
+            </div>
+            <!-- Giriş Yap Buton -->
+            <button type="submit" class="giris-yap-buton">Giriş Yap</button>
+            <!-- Şifremi Unuttum ve Kaydol Linkleri -->
+            <div class="forgot-and-create tab-menu">
+               <a class="sifre-hatirlat-link" href="javascript:void('sifre-hatirlat-link');">Şifreni mi Unuttun ?</a>
+               <a class="hesap-olustur-link" href="javascript:void('hesap-olustur-link');">Hesap Oluştur.</a>
+            </div>
+         </form>
+         <!-- #Login (giriş) Form Sayfası Bitiş -->
+         
+		 <!-- Kayıt Form Sayfası -->
+         <form id="kayit-form" class="col-lg-12" action="kayit.php" method="post">
+            <div class="col-lg-12 logo-kapsul">
+               <img width="100" class="logo" src="img/logo.png" alt="RadKod Logo" draggable="false"/>
+            </div>
+            <div style="clear:both;"></div>
+            <!-- Kayıt Form Kullanıcı Adı İnput -->
+            <div class="group">      
+               <input type="text" name="kullanici_adi" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-ikon">person_outline</i><span class="span-input">Kullanıcı Adınız</span></label>
+            </div>
+            <!-- Kayıt Form Email İnput -->
+            <div class="group">      
+               <input type="text" name="email" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-ikon">mail_outline</i><span class="span-input">E-Mail</span></label>
+            </div>
+            <!-- Kayıt Form Şifre İnput -->
+            <div class="group">      
+               <input type="password" name="sifre" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Şifre</span></label>
+            </div>
+            <!-- Kayıt Form Şifre-Tekrarı İnput -->
+            <div class="group">      
+               <input type="password" name="sifre_dogrula" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Şifre Tekrarı</span></label>
+            </div>
+            <!-- Kayıt Ol Buton -->
+            <button type="submit" class="kayit-ol-buton">Kayıt Ol</button>
+            <!-- Zaten Hesap Var Link -->
+            <a class="zaten-hesap-var-link" href="javascript:void('zaten-hesap-var-link');">Zaten Bir Hesabınız Var mı ? , Giriş Yapın.</a>
+         </form>
+         <!-- ##Kayıt Form  Sayfası Bitis -->
+         
+		 <!-- Sifre Hatirlat Form Sayfası -->
+         <form id="sifre-hatirlat-form" class="col-lg-12" action="sifre-hatirlat.php" method="post">
+            <div class="col-lg-12 logo-kapsul">
+               <img width="100" class="logo" src="img/logo.png" alt="RadKod Logo" draggable="false"/>
+            </div>
+            <div style="clear:both;"></div>
+            <!-- Şifre Hatırlat Email İnput -->
+            <div class="group">      
+               <input type="text" name="email" required>
+               <span class="highlight"></span>
+               <span class="bar"></span>
+               <label><i class="material-icons input-ikon">mail_outline</i><span class="span-input">E-Mail</span></label>
+            </div>
+            <!-- Şifremi Hatırlat Buton -->
+            <button type="submit" class="sifre-hatirlat-buton">Şifremi Hatırlat</button>
+            <!-- Zaten Hesap Var Link -->
+            <a class="zaten-hesap-var-link" href="javascript:void('zaten-hesap-var-link');">Zaten Bir Hesabınız Var mı ? , Giriş Yapın.</a>
+         </form>
+         <!-- ##Sifre Hatirlat Form Bitis -->
+      
+	  </div>
+      <!-- #Kapsayıcı Bitiş -->
+   </body>
+</html>
